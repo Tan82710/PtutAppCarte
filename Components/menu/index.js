@@ -9,7 +9,7 @@ export default class Menu extends Component {
 
 
 static navigationOptions = {
-        title: 'Menu',
+        title: 'Menu1',
         headerStyle: {
           backgroundColor: '#676568',
         },
