@@ -9,7 +9,7 @@ export default class Menu extends Component {
 
 
 static navigationOptions = {
-        title: 'Menu1',
+        title: 'Menu',
         headerStyle: {
           backgroundColor: '#676568',
         },
@@ -42,11 +42,13 @@ const styles = StyleSheet.create({
       flexDirection: "row",
       justifyContent: 'center',
       alignItems: 'center',
-      width: 735,
-      height:200
+      width: 400,
+      height:350
 
     },
     container: {
-        flex:1
+      flexDirection: 'row',
+      flex:1,
+      justifyContent: 'center'
     }
   });
