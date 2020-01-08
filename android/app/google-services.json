@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "509117790508",
+    "firebase_url": "https://jeucarte-688b5.firebaseio.com",
+    "project_id": "jeucarte-688b5",
+    "storage_bucket": "jeucarte-688b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509117790508:android:213266d78aad8332b15489",
+        "android_client_info": {
+          "package_name": "com.TNAB.JeuCarte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509117790508-o4fanu47p3upkri4qaqieki625fi92kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYx6a-AYczbW8hh42Zsb1EzQ1jvGccFIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509117790508-o4fanu47p3upkri4qaqieki625fi92kp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509117790508-1i2fuq1oprencp1t2rujg8lt8652b18o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TNAB.JeuCarte"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509117790508:android:aec2d55e1dd8d6e3b15489",
+        "android_client_info": {
+          "package_name": "com.jeucarte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509117790508-o4fanu47p3upkri4qaqieki625fi92kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYx6a-AYczbW8hh42Zsb1EzQ1jvGccFIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509117790508-o4fanu47p3upkri4qaqieki625fi92kp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509117790508-1i2fuq1oprencp1t2rujg8lt8652b18o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TNAB.JeuCarte"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
