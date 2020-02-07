@@ -12,6 +12,8 @@ import Search from './Components/Search'
 import DiceApp from './Components/biskit/DiceApp'
 import Menu from './Components/menu'
 import Party from './Components/party'
+import Room from './Components/Room'
+import Pseudo from './Components/Room/pseudo'
 
 import firebase from '@react-native-firebase/app';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
@@ -26,6 +28,12 @@ const Nav = createStackNavigator({
   },
   Party: {
     screen : Party,
+  },
+  Room: {
+    screen : Room,
+  },
+  Pseudo: {
+    screen : Pseudo,
   }
 }, {
   initialRouteName: 'Menu'

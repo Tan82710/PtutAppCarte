@@ -19,6 +19,7 @@ static navigationOptions = {
 
       handleOnPress() {
         this.props.navigation.navigate('DiceApp')
+        this.props.navigation.navigate('Pseudo')
     }
 
       render() {
@@ -30,7 +31,7 @@ static navigationOptions = {
                   <Image style={styles.picture} source={require('../menu/Image/dice.jpg')}/>
                 </TouchableOpacity>
         
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => navigate('Pseudo')}>
                   <Image style={styles.picture} source={require('../menu/Image/pyramide.jpg')}/>
                 </TouchableOpacity>
 
