@@ -10,34 +10,22 @@ export default class Room extends Component {
 
     constructor(props){
         super(props)
-        //this.state={user:[]}
-        //this.state = {user: this.props.navigation.getParam('index', 'No-ID')}
-        this.state={user:[]}
+        this.state={user:['Titi', 'Alextoy', 'Prophete']}
         this.dataUser()
         console.log("state:" + this.state)
-        this._recuperationData()
         
     }
 
-    Affichage({pseudo}) {
-
-      const DATA = [{
-        pseudo : this.state
-      }]
-
-      return(
-      <View style={styles.view}>
-        <Text style={styles.text}>{pseudo}</Text>
-      </View>
-      )
-    }
 
     dataUser() {
-      const data = this.props.navigation.state.params.user
-      //this.setState({data})
-      this.state = data
+      const data = this.props.navigation.state.params.user     
+      var tab = this.state.user
+      tab.push(data)
+      //user = tab
+      this.setState({user: tab})
       console.log('mon pseudo :' + data)
     }
+
 
 static navigationOptions = {
         title: 'Room',
@@ -51,18 +39,6 @@ static navigationOptions = {
       handleOnPress() {
         this.props.navigation.navigate('DiceApp')
     }
-
-    _recuperationData = async() => {
-      try {
-        const value = await AsyncStorage.getItem(this.state)
-        if (value !== null){
-          console.log('Ma value:' + value)
-        }
-      }catch(error){
-
-      }
-    }
-
 
 
     //{JSON.stringify(navigation.getParam('user'))}
@@ -85,11 +61,11 @@ static navigationOptions = {
             return(
               <View style={styles.container}>
 
-              <FlatList data = {[{pseudo : this.state, key: 'pseudo1'}]}
+              <FlatList data = {this.state.user}
               renderItem={({item}) =>
 
               <View style={styles.view}>
-                <Text>{item.pseudo}</Text>
+                <Text>{item}</Text>
               </View>
 
               }/>

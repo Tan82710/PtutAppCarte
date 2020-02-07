@@ -64,7 +64,7 @@ static navigationOptions = {
         <Button
           title="Validax"
           onPress={this.valider()}
-          onPress={() => navigate('Room', {user: this.props})}
+          onPress={() => navigate('Room', {user: this.state.pseudo})}
         />
 
               </View>
