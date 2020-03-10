@@ -30,8 +30,7 @@ static navigationOptions = {
                   </TouchableOpacity>
                   <TouchableOpacity>
                     <Image style={styles.picture} source={require('./Image/soft.jpg')}/>
-                  </TouchableOpacity>
-                   
+                  </TouchableOpacity>  
               </View>
           )
       }
